@@ -22,7 +22,7 @@ sudo ./nr-softmodem -O Gabriel_N310_1T1R.conf --sa --usrp-tx-thread-config 1
 
 #### For 2T2R
 ```bash
-sudo ./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.106PRB.2x2.usrpn300.conf --sa --usrp-tx-thread-config 1 -E --continuous-tx
+./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.band78.sa.fr1.106PRB.2x2.usrpn310.conf --sa --usrp-tx-thread-config 1
 ```
 
 - [USRP_X410](./SDR_USRP/USRP_X410/1T1R_Config/gnb.sa.band78.fr1.106PRB.usrpx310.conf)
