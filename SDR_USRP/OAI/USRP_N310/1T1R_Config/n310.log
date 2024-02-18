@@ -1,0 +1,694 @@
+three@three:~/openairinterface5g/cmake_targets/ran_build/build$ sudo ./nr-softmodem -O Gabriel_N310_1T1R.conf --sa --usrp-tx-thread-config 1
+CMDLINE: "./nr-softmodem" "-O" "n310.conf" "--sa" "--usrp-tx-thread-config" "1" 
+[CONFIG] get parameters from libconfig n310.conf [LIBCONFIG] Path for include directive set to: .
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+[CONFIG] debug flags: 0x00000000
+[LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] log_config: 53/53 parameters successfully set, (46 to default value)
+[LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
+[LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+[LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+log init done
+[HW]   # /dev/cpu_dma_latency set to 2 us
+Reading in command-line options
+[LIBCONFIG] (root): 42/42 parameters successfully set, (39 to default value)
+[LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+[ENB_APP]   nfapi running mode: MONOLITHIC
+[GNB_APP]   Getting GNBSParams
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[CONFIG] parallel_conf is set to 0
+[CONFIG] worker_conf is set to 1
+Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
+[LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+configuring for RAU/RRU
+[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+[ITTI]   Starting itti queue: TASK_TIMER as task 1
+[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+[ITTI]   Starting itti queue: TASK_BM as task 3
+[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+[ITTI]   Starting itti queue: TASK_S1AP as task 15
+[ITTI]   Starting itti queue: TASK_NGAP as task 16
+[ITTI]   Starting itti queue: TASK_X2AP as task 17
+[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+[ITTI]   Starting itti queue: TASK_M3AP as task 20
+[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+[ITTI]   Starting itti queue: TASK_SCTP as task 23
+[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+[OPT]   OPT disabled
+[HW]   Version: Branch: develop Abrev. Hash: 4582a95203 Date: Wed Jan 10 09:07:53 2024 +0100
+[NR_PHY]   RC.gNB = 0x5579c17bd3a0
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[NR_PHY]   PRB blacklist 
+[NR_PHY]   Copying 0 blacklisted PRB to L1 context
+[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (15 to default value)
+[PHY]   L1_RX_THREAD_CORE -1 (16)
+[PHY]   TX_AMP = 519 (-36 dBFS)
+Initializing northbound interface for L1
+[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+[PHY]   Installing callbacks for IF_Module - UL_indication
+[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5579c17c2150
+[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file n310.conf 
+[PHY]   create_gNB_tasks() Task ready initialize structures
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[NR_PHY]   PRB blacklist 
+[NR_PHY]   Copying 0 blacklisted PRB to L1 context
+[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (15 to default value)
+[PHY]   L1_RX_THREAD_CORE -1 (16)
+[PHY]   TX_AMP = 519 (-36 dBFS)
+Initializing northbound interface for L1
+[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+[PHY]   Installing callbacks for IF_Module - UL_indication
+[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+[LIBCONFIG] list prs_config not found in config file n310.conf 
+[PHY]   No prs_config configuration found..!!
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[GNB_APP]   pdsch_AntennaPorts N1 1 N2 1 XP 1 pusch_AntennaPorts 1
+[GNB_APP]   minTXRXTIME 6
+[GNB_APP]   SIB1 TDA 1
+[GNB_APP]   CSI-RS 0, SRS 0, 256 QAM may be on
+[LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (9 to default value)
+[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file n310.conf 
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file n310.conf 
+[MAC]   [MAIN] Init function start:nb_nr_macrlc_inst=1
+[UTIL]   Creating thread MAC_STATS with affinity -1 and priority 2
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file n310.conf 
+[PHY]   Installing callbacks for IF_Module - UL_indication
+[NR_MAC]   Configuring common parameters from NR ServingCellConfig
+[NR_MAC]   config_common() dl_BandwidthP:40
+[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[NR_MAC]   config_common() dl_BandwidthP:40
+[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+[NR_MAC]   ssb_OffsetPointA 86, ssb_SubcarrierOffset 0
+[NR_MAC]   Set RX antenna number to 1, Set TX antenna number to 1 (num ssb 1: 80000000,0)
+[NR_MAC]   Setting TDD configuration period to 6
+[NR_MAC]   TDD has been properly configurated
+DL frequency 3619200000: band 48, UL frequency 3619200000
+[PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
+[PHY]   Configuring MIB for instance 0, : (Nid_cell 0,DL freq 3619200000, UL freq 3619200000)
+[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+[PHY]   gNB 0 configured
+[NR_MAC]   PUSCH Target 200, PUCCH Target 200, PUCCH Failure 10, PUSCH Failure 10
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[GNB_APP]   no slices transported via F1 Setup Request!
+[NR_RRC]   SIB1 freq: offsetToPointA 86
+[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+[GNB_APP]   F1AP: gNB idx 0 gNB_DU_id 3584, gNB_DU_name gNB-OAI, TAC 1 MCC/MNC/length 1/1/2 cellID 12345678
+[GNB_APP]   ngran_DU: Configuring Cell 0 for TDD
+[PHY]   create_gNB_tasks() RC.nb_nr_L1_inst:1
+[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+[PHY]   Installing callbacks for IF_Module - UL_indication
+[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+NRRRC 0: Southbound Transport local_mac
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file n310.conf 
+[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[GNB_APP]   SDAP layer is disabled
+[GNB_APP]   Data Radio Bearer count 1
+[NR_RRC]   do_SIB23_NR, size 9 
+ [LIBCONFIG] security: 4/4 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file n310.conf 
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file n310.conf 
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file n310.conf 
+[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+[LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
+[LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+[GNB_APP]   default drx 0
+[GNB_APP]   [gNB 0] gNB_app_register for instance 0
+[UTIL]   Creating thread TASK_SCTP with affinity -1 and priority 50
+[ITTI]   Created Posix thread TASK_SCTP
+[X2AP]   X2AP is disabled.
+[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+[NGAP]   Configuration in the file: demo-oai.
+[NGAP]   Configuration in the file: 192.168.70.129/24.
+[UTIL]   Creating thread TASK_NGAP with affinity -1 and priority 50
+[NGAP]   Starting NGAP layer
+[ITTI]   Created Posix thread TASK_NGAP
+[UTIL]   Creating thread TASK_GNB_APP with affinity -1 and priority 50
+[NGAP]   Registered new gNB[0] and macro gNB id 3584
+[NGAP]   [gNB 0] check the amf registration state
+[NGAP]   3584 -> 0000e000
+[NGAP]   servedGUAMIs.list.count 1
+[NGAP]   PLMNSupportList.list.count 1
+[NGAP]   PLMNSupportList.list.count 1
+[ITTI]   Created Posix thread TASK_GNB_APP
+[UTIL]   Creating thread TASK_RRC_GNB with affinity -1 and priority 50
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file n310.conf 
+[GNB_APP]   [gNB 0] Received NGAP_REGISTER_GNB_CNF: associated AMF 1
+[ITTI]   Created Posix thread TASK_RRC_GNB
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
+[GTPU]   Configuring GTPu
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[NR_RRC]   Entering main loop of NR_RRC message task
+[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+[NR_RRC]   Received F1 Setup Request from gNB_DU 3584 (gNB-OAI) on assoc_id -1
+[GTPU]   SA mode 
+[GTPU]   Configuring GTPu address : 192.168.70.129, port : 2152
+[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
+[GTPU]   Created gtpu instance id: 100
+[UTIL]   Creating thread TASK_GTPV1_U with affinity -1 and priority 50
+[MAC]   received F1 Setup Response from CU (null)
+[ITTI]   Created Posix thread TASK_GTPV1_U
+START MAIN THREADS
+RC.nb_nr_L1_inst:1
+Initializing gNB threads single_thread_flag:1 wait_for_sync:0
+[PHY]   Initializing gNB 0 single_thread_flag:1
+[PHY]   Initializing gNB 0
+[PHY]   Registering with MAC interface module (before 0x5579c17c2150)
+[PHY]   Installing callbacks for IF_Module - UL_indication
+[PHY]   Registering with MAC interface module (after 0x5579c17c2150)
+[PHY]   Setting indication lists
+[PHY]   [nr-gnb.c] gNB structure allocated
+wait_gNBs()
+Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+gNB L1 are configured
+About to Init RU threads RC.nb_RU:1
+Initializing RU threads
+configuring RU from file
+[LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (32 to default value)
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+Set RU mask to 1
+Creating RC.ru[0]:0x5579c181a480
+[PHY]   RU GPIO control set as 'generic'
+[PHY]   Setting clock source to internal
+[PHY]   Setting time source to internal
+Setting function for RU 0 to gNodeB_3GPP
+[RU 0] Setting nr_flag 0, nr_band 78, nr_scs_for_raster 1
+[RU 0] Setting half-slot parallelization to 1
+[PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 80
+[PHY]   DJP - delete code above this ../../../executables/nr-ru.c:1830
+[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
+configuring ru_id 0 (start_rf 0x5579be677e40)
+[PHY]   Starting ru_thread 0
+[PHY]   Initialized RU proc 0 (,synch_to_ext_device),
+[PHY]   RU Thread pool size 2
+[PHY]   RU thread-pool core string -1,-1
+create a thread for core -1
+[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 50
+create a thread for core -1
+[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 50
+[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
+[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 34
+wait RUs
+[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+[PHY]   Waiting for RUs to be configured ... RC.ru_mask:01
+[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+[PHY]   fp->scs=30000
+[PHY]   fp->ofdm_symbol_size=2048
+[PHY]   fp->nb_prefix_samples0=176
+[PHY]   fp->nb_prefix_samples=144
+[PHY]   fp->slots_per_subframe=2
+[PHY]   fp->samples_per_subframe_wCP=57344
+[PHY]   fp->samples_per_frame_wCP=573440
+[PHY]   fp->samples_per_subframe=61440
+[PHY]   fp->samples_per_frame=614400
+[PHY]   fp->dl_CarrierFreq=3619200000
+[PHY]   fp->ul_CarrierFreq=3619200000
+[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
+[PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
+[PHY]   Channel 0: setting tx_gain offset 0, tx_freq 3619200000 Hz
+[PHY]   Channel 0: setting rx_gain offset 114, rx_freq 3619200000 Hz
+[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
+[PHY]   [INIT] common.txdata[0] = 0x7f4df81ad040 (2458880 bytes,sf_extension 320)
+[PHY]   [INIT] common.txdata[0] = 0x7f4df81ad540 
+[PHY]   nb_tx 1
+[PHY]   rxdata_7_5kHz[0] 0x7f4df80bc040 for RU 0
+[PHY]   [INIT] common.txdata_BF= 0x7f4dd8000b00 (8 bytes)
+[PHY]   txdataF_BF[0] 0x7f4df8083040 for RU 0
+[PHY]   rxdataF[0] 0x7f4df8012040 for RU 0
+[PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
+[LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
+[LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
+[LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+[LIBCONFIG] loader.oai_device: 2/2 parameters successfully set, (1 to default value)
+shlib_path liboai_device.so
+[LOADER] library liboai_device.so successfully loaded
+[HW]   openair0_cfg[0].sdr_addrs == 'addr=192.168.20.2,clock_source=internal,time_source=internal'
+[HW]   openair0_cfg[0].clock_source == '0' (internal = 0, external = 1)
+[HW]   UHD version 4.5.0.HEAD-0-g471af98f (4.5.0)
+[HW]   Checking for USRP with args addr=192.168.20.2,clock_source=internal,time_source=internal
+[INFO] [UHD] linux; GNU C++ version 9.4.0; Boost_107100; UHD_4.5.0.HEAD-0-g471af98f
+[HW]   Found USRP n3xx
+Found USRP n310
+net.core.rmem_max = 62500000
+net.core.wmem_max = 62500000
+[INFO] [MPMD] Initializing 1 device(s) in parallel with args: mgmt_addr=192.168.20.2,type=n3xx,product=n310,serial=32C0F84,name=ni-n3xx-32C0F84,fpga=HG,claimed=False,addr=192.168.20.2,clock_source=internal,time_source=internal,master_clock_rate=122880000.000000
+[INFO] [MPM.main] Launching USRP/MPM, version: 4.5.0.0-g471af98f
+[INFO] [MPM.main] Spawning RPC process...
+[INFO] [MPM.PeriphManager] Device serial number: 32C0F84
+[INFO] [MPM.PeriphManager] Initialized 2 daughterboard(s).
+[INFO] [MPM.PeriphManager] init() called with device args `clock_source=internal,time_source=internal'.
+[INFO] [MPM.RPCServer] RPC server ready!
+[INFO] [MPM.RPCServer] Spawning watchdog task...
+[INFO] [MPM.PeriphManager] init() called with device args `clock_source=internal,fpga=HG,master_clock_rate=122880000.000000,mgmt_addr=192.168.20.2,name=ni-n3xx-32C0F84,product=n310,time_source=internal'.
+[HW]   Clock source set in both usrp_args and in clock_source, ingnoring the latter!
+[HW]   Time source set in both usrp_args and in time_source, ingnoring the latter!
+-- Using calibration table: calib_table_n310
+[HW]   device_init() sample_rate:61440000
+[HW]   cal 0: freq 3500000000.000000, offset 0.000000, diff 119200000.000000
+[HW]   cal 1: freq 2660000000.000000, offset 0.000000, diff 959200000.000000
+[HW]   cal 2: freq 2300000000.000000, offset 0.000000, diff 1319200000.000000
+[HW]   cal 3: freq 1880000000.000000, offset 0.000000, diff 1739200000.000000
+[HW]   cal 4: freq 816000000.000000, offset 0.000000, diff 2803200000.000000
+[HW]   RX Gain too high, lower by 39.000000 dB
+[HW]   RX Gain 0 114.000000 (0.000000) => 114.000000 (max 75.000000)
+[HW]   USRP TX_GAIN:65.00 gain_range:65.00 tx_gain:0.00
+[HW]   Actual master clock: 122.880000MHz...
+[HW]   Actual clock source internal...
+[HW]   Actual time source internal...
+[HW]   setting rx channel 0
+[HW]   RF board max packet size 364, size for 100µs jitter 6144 
+[HW]   rx_max_num_samps 364
+[HW]   RX Channel 0
+[HW]     Actual RX sample rate: 61.440000MSps...
+[HW]     Actual RX frequency: 3.619200GHz...
+[HW]     Actual RX gain: 75.000000...
+[HW]     Actual RX bandwidth: 100.000000M...
+[HW]     Actual RX antenna: RX2...
+[HW]   TX Channel 0
+[HW]     Actual TX sample rate: 61.440000MSps...
+[HW]     Actual TX frequency: 3.619200GHz...
+[HW]     Actual TX gain: 65.000000...
+[HW]     Actual TX bandwidth: 100.000000M...
+[HW]     Actual TX antenna: TX/RX...
+[HW]     Actual TX packet size: 364
+Using Device: Single USRP:
+  Device: N300-Series Device
+  Mboard 0: n310
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: Magnesium
+  RX Channel: 1
+    RX DSP: 1
+    RX Dboard: A
+    RX Subdev: Magnesium
+  RX Channel: 2
+    RX DSP: 2
+    RX Dboard: B
+    RX Subdev: Magnesium
+  RX Channel: 3
+    RX DSP: 3
+    RX Dboard: B
+    RX Subdev: Magnesium
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: Magnesium
+  TX Channel: 1
+    TX DSP: 1
+    TX Dboard: A
+    TX Subdev: Magnesium
+  TX Channel: 2
+    TX DSP: 2
+    TX Dboard: B
+    TX Subdev: Magnesium
+  TX Channel: 3
+    TX DSP: 3
+    TX Dboard: B
+    TX Subdev: Magnesium
+
+[HW]   Device timestamp: 0.296477...
+[HW]   [RAU] has loaded USRP N300 device.
+setup_RU_buffers: frame_parms = 0x7f4df8406010
+[PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
+[PHY]   Signaling main thread that RU 0 is ready, sl_ahead 6
+waiting for sync (ru_thread,-1/0x5579bf2320b4,0x5579c0b56d60,0x5579c0b55fa0)
+RC.ru_mask:00
+[PHY]   RUs configured
+ALL RUs READY!
+RC.nb_RU:1
+ALL RUs ready - init gNBs
+Not NFAPI mode - call init_eNB_afterRU()
+[PHY]   init_eNB_afterRU() RC.nb_nr_inst:1
+[PHY]   RC.nb_nr_CC[inst:0]:0x7f4dfa55b010
+[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
+[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+shlib_path libdfts.so
+[LOADER] library libdfts.so successfully loaded
+[LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
+shlib_path libldpc.so
+[LOADER] library libldpc.so successfully loaded
+[PHY]   Initialise nr transport
+[PHY]   Mapping RX ports from 1 RUs to gNB 0
+[PHY]   gNB->num_RU:1
+[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
+create a thread for core -1
+[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 50
+create a thread for core -1
+[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 50
+create a thread for core -1
+[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 50
+create a thread for core -1
+[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 50
+create a thread for core -1
+[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 50
+create a thread for core -1
+[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 50
+create a thread for core -1
+[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 50
+create a thread for core -1
+[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 50
+[PHY]   Creating thread for TX reordering and dispatching to RU
+[UTIL]   Creating thread thread_tx_reorder with affinity -1 and priority 97
+[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
+waiting for sync (L1_stats_thread,-1/0x5579bf2320b4,0x5579c0b56d60,0x5579c0b55fa0)
+ALL RUs ready - ALL gNBs ready
+Sending sync to all threads
+Entering ITTI signals handler
+TYPE <CTRL-C> TO TERMINATE
+got sync (ru_thread)
+got sync (L1_stats_thread)
+[HW]   current pps at 1.000000, starting streaming at 2.000000
+[PHY]   RU 0 rf device ready
+[PHY]   RU 0 RF started opp_enabled 0
+initializing tx write thread
+end of tx write thread
+[UTIL]   Creating thread trx_usrp_write_thread with affinity -1 and priority 97
+[PHY]   tx write thread ready
+trx_usrp_write_thread started on cpu 74
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+[PHY]   tx_reorder_thread started
+LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL[NR_MAC]   Frame.Slot 256.0
+
+[NR_MAC]   Frame.Slot 384.0
+
+[NR_MAC]   Frame.Slot 512.0
+
+[NR_MAC]   Frame.Slot 640.0
+
+[NR_MAC]   Frame.Slot 768.0
+
+[NR_MAC]   Frame.Slot 896.0
+
+[NR_MAC]   Frame.Slot 0.0
+
+[NR_MAC]   Frame.Slot 128.0
+
+[NR_MAC]   Frame.Slot 256.0
+
+[NR_MAC]   Frame.Slot 384.0
+
+[NR_MAC]   Frame.Slot 512.0
+
+[NR_MAC]   Frame.Slot 640.0
+
+[NR_MAC]   Frame.Slot 768.0
+
+[NR_MAC]   Frame.Slot 896.0
+
+[NR_MAC]   Frame.Slot 0.0
+
+[NR_MAC]   Frame.Slot 128.0
+
+[NR_MAC]   Frame.Slot 256.0
+
+[NR_MAC]   Frame.Slot 384.0
+
+[NR_MAC]   Frame.Slot 512.0
+
+[NR_MAC]   Frame.Slot 640.0
+
+[NR_MAC]   Frame.Slot 768.0
+
+[NR_MAC]   Frame.Slot 896.0
+
+[NR_MAC]   Frame.Slot 0.0
+
+[NR_MAC]   Frame.Slot 128.0
+
+[NR_MAC]   Frame.Slot 256.0
+
+[NR_MAC]   Frame.Slot 384.0
+
+[NR_MAC]   Frame.Slot 512.0
+
+[NR_MAC]   Frame.Slot 640.0
+
+[NR_MAC]   Frame.Slot 768.0
+
+[NR_MAC]   Frame.Slot 896.0
+
+[NR_MAC]   Frame.Slot 0.0
+
+[NR_MAC]   Frame.Slot 128.0
+
+[NR_MAC]   Frame.Slot 256.0
+
+[NR_PHY]   [gNB 0][RAPROC] Frame 307, slot 19 Initiating RA procedure with preamble 45, energy 30.0 dB (I0 140, thres 120), delay 7 start symbol 0 freq index 0
+[MAC]   UL_info[Frame 307, Slot 19] Calling initiate_ra_proc RACH:SFN/SLOT:307/19
+[NR_MAC]   [gNB 0][RAPROC] CC_id 0 Frame 307 Activating Msg2 generation in frame 308, slot 7 using RA rnti 10b SSB, new rnti 6472 index 0 RA index 0
+[NR_MAC]   [gNB 0][RAPROC] CC_id 0 Frame 308, slotP 7: Generating RA-Msg2 DCI, rnti 0x10b, state 1, CoreSetType 0
+[NR_MAC]   [RAPROC] Msg3 slot 17: current slot 7 Msg3 frame 308 k2 7 Msg3_tda_id 3
+[NR_MAC]   [gNB 0][RAPROC] Frame 308, Subframe 7: rnti 6472 RA state 2
+[NR_MAC]   Adding UE with rnti 0x6472
+[NR_MAC]   [gNB 0][RAPROC] PUSCH with TC_RNTI 0x6472 received correctly, adding UE MAC Context RNTI 0x6472
+[NR_MAC]   [RAPROC] RA-Msg3 received (sdu_lenP 7)
+[MAC]   [RAPROC] Received SDU for CCCH length 6 for UE 6472
+[NR_MAC]   Activating scheduling RA-Msg4 for TC_RNTI 0x6472 (state 2)
+[NR_MAC]   Unexpected ULSCH HARQ PID 0 (have -1) for RNTI 0x6472 (ignore this warning for RA)
+[NR_RRC]   Decoding CCCH: RNTI 6472, payload_size 6
+[NR_RRC]   Returning new RRC UE context RRC ue id: 1
+[NR_RRC]   Created new UE context: CU UE ID 1 DU UE ID 25714 (rnti: 6472, random ue id 20fc698c10000000)
+[NR_RRC]   rrc_gNB_generate_RRCSetup for RNTI 6472
+[NR_MAC]   No CU UE ID stored for UE RNTI 6472, adding CU UE ID 1
+[NR_MAC]   ( 309. 5) SRB0 has 137 bytes
+[NR_MAC]   ( 309. 6) SRB0 has 137 bytes
+[NR_MAC]   ( 309. 7) SRB0 has 137 bytes
+[NR_MAC]   ( 309.10) SRB0 has 137 bytes
+[NR_MAC]   UE 6472 Generate msg4: feedback at  309.17, payload 149 bytes, next state WAIT_Msg4_ACK
+[NR_MAC]   (UE RNTI 0x6472) Received Ack of RA-Msg4. CBRA procedure succeeded!
+[NR_MAC]    310. 3 UE 6472: Activate RRC processing timer (10 ms)
+[NR_MAC]    311. 9 RNTI 6472: RRC processing timer expired
+[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 1] [RAPROC] Logical Channel UL-DCCH, processing NR_RRCSetupComplete from UE (SRB1 Active)
+[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 1] UE State = NR_RRC_CONNECTED 
+[NGAP]   [gNB 0] Chose AMF 'OAI-AMF' (assoc_id 205) through selected PLMN Identity index 0 MCC 1 MNC 1
+[NR_MAC]   Detected UL Failure on PUSCH after 10 PUSCH DTX, stopping scheduling
+[NR_MAC]   Detected UL Failure on PUSCH after 11 PUSCH DTX, stopping scheduling
+[NR_MAC]   Detected UL Failure on PUSCH after 12 PUSCH DTX, stopping scheduling
+[NR_MAC]   Detected UL Failure on PUSCH after 13 PUSCH DTX, stopping scheduling
+[NR_MAC]   Detected UL Failure on PUSCH after 14 PUSCH DTX, stopping scheduling
+[NR_MAC]   Frame.Slot 384.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP -100 (1 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+[NR_MAC]   Frame.Slot 512.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+[NR_MAC]   Frame.Slot 640.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+[NR_MAC]   Frame.Slot 768.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+ULLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL[NR_MAC]   Frame.Slot 896.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+[NR_MAC]   Frame.Slot 0.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+[NR_MAC]   Frame.Slot 128.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+[NR_MAC]   Frame.Slot 256.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+[NR_MAC]   Frame.Slot 384.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+[NR_MAC]   Frame.Slot 512.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+[NR_MAC]   Frame.Slot 640.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+[NR_MAC]   Frame.Slot 768.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+[NR_MAC]   Frame.Slot 896.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+[NR_MAC]   Frame.Slot 0.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+[NR_MAC]   Frame.Slot 128.0
+UE RNTI 6472 (1) PH 24 dB PCMAX 21 dBm, average RSRP 0 (0 meas)
+UE 6472: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+UE 6472: dlsch_total_bytes 246
+UE 6472: ulsch_rounds 13/4/3/2, ulsch_DTX 14, ulsch_errors 2, BLER 0.10000 MCS 9
+UE 6472: ulsch_total_bytes_scheduled 1140, ulsch_total_bytes_received 652
+UE 6472: LCID 1: TX             62 RX             41 bytes
+
+^C
+** Caught SIGTERM, shutting down
+Returned from ITTI signal handler
+oai_exit=1
+[PHY]   Killing gNB 0 processing threads
+Exiting ru_thread 
+O[PHY]   Destroying UL_INFO mutex
+[PHY]   Stopping RU 0 processing threads
+[HW]   releasing USRP
+[HW]   stopped USRP write thread
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Aborted
